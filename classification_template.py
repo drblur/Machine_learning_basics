@@ -23,7 +23,7 @@ X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
 # Fitting classifier to the Training set
-# Create your classifier here
+# Create your classifier here as for now there is Logistic regression ,you can use any classifier
 from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)
 classifier.fit(X_train,y_train)
